@@ -63,28 +63,67 @@
 
 
 
-const tinderUser = new Object()
- const tinderUser = {}
-tinderUser.id = "123abc"
- tinderUser.name = "Sammy" 
- tinderUser.isLoggedIn = false
+// const tinderUser = new Object()
+
+
+// //  const tinderUser = {}
+// tinderUser.id = "123abc"
+//  tinderUser.name = "Sammy" 
+//  tinderUser.isLoggedIn = false
 
 
 
 
-const users = [ {
-    id: 1,
-    email: "h@gmail.com" },
-    {
-    id: 1,
-    email: "h@gmail.com" },
-    {
-    id: 1,
-    email: "h@gmail.com" },
-    ]
-    users[1].email
-    console.log(tinderUser);
-    console.log(Object.keys(tinderUser));
-    console.log(Object.values(tinderUser));
-     console.log(Object.entries(tinderUser));
-    console.log(tinderUser.hasOwnProperty('isLogg edIn'));
+// const users = [ {
+//     id: 1,
+//     email: "h@gmail.com" },
+//     {
+//     id: 1,
+//     email: "h@gmail.com" },
+//     {
+//     id: 1,
+//     email: "h@gmail.com" },
+//     ]
+//     users[1].email
+    //console.log(tinderUser);
+    // console.log(Object.keys(tinderUser));
+     //console.log(Object.values(tinderUser));
+     //onsole.log(Object.entries(tinderUser));
+//    console.log(tinderUser.hasOwnProperty('isString'));
+
+
+    //console.log("hello");
+//     const tinder=new Object()
+//     const tinders={}
+//     const regUser={
+//         email:"shaiksabeeha8784@gmail..com",
+//         userid:1234556,
+//         fullname:{
+//             userfullname:{
+//                 firstname:"sabeeha",
+//                 lastname:"shaik"
+//             }
+//         }
+//     }
+// console.log(regUser.fullname.userfullname.firstname);
+
+
+// const ob1={1:"a",2:"b"}
+// const ob2={3:"a",4:"b"}
+// const ob4={5:"a",6:"b"}
+// //const ob3={ob1,ob2}
+// //const ob3=Object.assign({},ob1,ob2,ob4)
+// const ob3={...ob1,...ob2,...ob4}
+// console.log(ob3);
+
+
+
+const course={
+    coursename:"js",
+    price:999,
+    courseInst:"sabeeha"
+
+}
+//course.courseInst
+const{courseInst:inst}=course
+console.log(inst);
